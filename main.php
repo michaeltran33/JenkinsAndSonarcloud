@@ -6,4 +6,4 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
     echo "Invalid email";
 }
 
-echo "this is the test part";
+echo "this is the test part, it should raise an warning on sonarcloud report";
