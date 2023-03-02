@@ -7,3 +7,5 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 }
 
 echo "this is the test part, it should raise an warning on sonarcloud report";
+## this is wrong comment
+// this is not php comment
